@@ -13,9 +13,9 @@ $(document).ready(function() {
 });
 /* About Us Slider */
 /* user defined variables */
-var timeOnSlide = 7, 		
+var timeOnSlide = 3, 		
     // the time each image will remain static on the screen, measured in seconds
-timeBetweenSlides = 4, 	
+timeBetweenSlides = 3, 	
     // the time taken to transition between images, measured in seconds
 
 // test if the browser supports animation, and if it needs a vendor prefix to do so
