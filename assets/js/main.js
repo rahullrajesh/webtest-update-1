@@ -174,7 +174,7 @@
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 40
+        spaceBetween: 60
       },
       480: {
         slidesPerView: 3,
@@ -185,7 +185,7 @@
         spaceBetween: 80
       },
       992: {
-        slidesPerView: 3,
+        slidesPerView: 5,
         spaceBetween: 120
       }
     }
@@ -267,6 +267,7 @@
 
       1200: {
         slidesPerView: 3,
+        spaceBetween: 40
       }
     }
   });
@@ -278,7 +279,7 @@
     AOS.init({
       duration: 1000,
       easing: "ease-in-out",
-      once: true,
+      once: false,
       mirror: false
     });
   }
